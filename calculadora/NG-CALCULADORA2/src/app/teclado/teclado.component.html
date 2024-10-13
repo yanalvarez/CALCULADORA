@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="row mt-3">
+      <div class="col-md-12">
+        <form>
+          <div class="form-group">
+            <input type="text" [value]="resultado" class="form-control" readonly="readonly">
+          </div>
+        </form>
+      </div>
+    </div>
+  
+    <div class="row mt-3">
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('7')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 7">7</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('8')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 8">8</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('9')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 9">9</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('*')" class="btn btn-secondary btn-lg btn-block" tooltip="Tecla *">*</button>
+      </div>
+    </div>
+  
+    <div class="row mt-3">
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('4')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 4">4</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('5')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 5">5</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('6')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 6">6</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('-')" class="btn btn-secondary btn-lg btn-block" tooltip="Tecla -">-</button>
+      </div>
+    </div>
+  
+    <div class="row mt-3">
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('1')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 1">1</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('2')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 2">2</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('3')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 3">3</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('+')" class="btn btn-secondary btn-lg btn-block" tooltip="Tecla +">+</button>
+      </div>
+    </div>
+  
+    <div class="row mt-3">
+      <div class="col-3 d-grid">
+        <button type="button" (click)="clicar('0')" class="btn btn-primary btn-lg btn-block" tooltip="Tecla 0">0</button>
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="limpar()" class="btn btn-secondary btn-lg btn-block" tooltip="Tecla CE">CE</button>
+      </div>
+      <div class="col-3 d-grid">
+      <button type="button" (click)="clicar('/')" class="btn btn-secondary btn-lg btn-block" tooltip="Tecla /">/</button>    
+      </div>
+      <div class="col-3 d-grid">
+        <button type="button" (click)="finalizar()" class="btn btn-danger btn-lg btn-block" tooltip="Tecla =">=</button>
+      </div>
+    </div>
+  </div>
